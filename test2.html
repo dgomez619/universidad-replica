@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <link rel="stylesheet" href="./css/test2.css">
+
+
+</head>
+<body>
+    <!-- top bar -->
+    <nav  id="navbar-one" class="flex">
+        <div class="left flex">
+            <div class="call">
+                <i class="fa fa-phone-alt"></i>
+                <span class="hidden-mobile">123 456 789</span>
+            </div>
+            <div class="email">
+                <i class="fa fa-envelope"></i>
+                <span class="hidden-mobile">info@email.com</span>
+            </div>
+        </div>
+        <div class="right flex">
+            <div class="yt">
+                <i class="fab fa-youtube"></i>
+            </div>
+            <div class="ig">
+                <i class="fab fa-instagram"></i>
+            </div>
+            <div class="fb">
+                <i class="fab fa-facebook"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!--button bar  -->
+
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <a class="navbar-brand" href="#"><img height="100" width="150" src="./images/LOGO.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">About us <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Courses</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                  </li>        
+              </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!-- welcome card -->    
+
+    <section >
+        <div  class="container-fluid">
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-lg-4">
+                    <br>
+                    <div class="flow">                        
+                        <h1>Welcome at the University</h1>
+                        <hr id="line">
+                        <h1 id="topText">We are an online <br>
+                             platform to make learning</h1>              
+                      <br>
+                      <button id="button">Get Now</button>
+                      </div>
+                </div>    
+                <div class="col-lg-2"></div>            
+
+                <!-- registration -->
+
+                <div class="col-lg-4">
+                    <br>
+                    <div  class="flow">
+                        <div class="card">
+                            <h5 class="card-header">Register now</h5>
+                            <div class="card-body">
+                              <form>
+                                <div class="form-group">
+                                    <input placeholder="Name" type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                                  </div>
+                                <div class="form-row">                            
+                                  <div class="form-group col-md-6">
+                                    <input placeholder="Email" type="email" class="form-control" id="inputEmail4">
+                                  </div>
+                                  <div class="form-group col-md-6">
+                                    <input placeholder="Phone" type="phone" class="form-control" id="inputPassword4">
+                                  </div>
+                                </div>
+                               
+                                <div  class="form-group">
+                                  <input type="text" class="form-control" placeholder="Subject">
+                                </div>
+                                <div class="form-row">
+                                  <div class="form-group col-lg-12">
+                                    <textarea placeholder="Message" class="form-control"  rows="3"></textarea>                            
+                                  </div>                       
+                                </div>
+                                <div  class="form-group">                        
+                                <button type="submit" id="sendButton">Sign in</button>
+                              </form>
+                            </div>
+                          </div>
+                      </div>
+                </div>
+                <div class="col-lg-1"></div>
+            </div>
+        </div>
+    </section>
+    <br>
+
+    <div id="bottomSect" class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4"> <h1 style="color:black ;" class="flow">
+                <span class="dot"></span>
+                 The most popular
+                <hr style="background-color: #ffb749; height: 5px; margin-left: 30px;">
+               <p style="margin: 0px 0px 0px 30px;" id="topText">Know what we offer</p> 
+            </h1> </div>
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4"></div>
+
+                      
+                        
+        </div>
+    </div>
+
+    <!-- bottom cards -->
+
+    <div class="container-fluid">
+        <div class="row grid">
+
+            <div class="col-lg-3 bcards">
+                <div id="cCard"  class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./images/IMAGE CURSO 1.jpg" alt="Card image cap">
+                <div id="card-body" class="card-body">
+                  <!-- <h5 class="card-title">Card title</h5> -->
+                  <p class="card-text">Design for the web with adobe photoshop</p>
+                  <a href="#" class="btn"><button id="button">Read More</button></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 bcards">
+                <div id="cCard2"  class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./images/IMAGE CURSO 2.jpg" alt="Card image cap">
+                <div id="card-body2" class="card-body">
+                  <!-- <h5 class="card-title">Card title</h5> -->
+                  <p class="card-text">Design for the web with adobe photoshop</p>
+                  <a href="#" class="btn"><button id="button">Read More</button></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 bcards">
+                <div id="cCard3"  class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./images/IMAGE CURSO 3.jpg" alt="Card image cap">
+                <div id="card-body3" class="card-body">
+                  <!-- <h5 class="card-title">Card title</h5> -->
+                  <p class="card-text">Design for the web with adobe photoshop</p>
+                  <a href="#" class="btn"><button id="button">Read More</button></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 bcards">
+                <div id="cCard4"  class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./images/IMAGE CURSO 4.jpg" alt="Card image cap">
+                <div id="card-body4" class="card-body">
+                  <!-- <h5 class="card-title">Card title</h5> -->
+                  <p class="card-text">Design for the web with adobe photoshop</p>
+                  <a href="#" class="btn"><button id="button">Read More</button></a>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    
+    <!-- bottom button -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4"></div>
+            <div class="col-lg-4" style="padding-left: 100px;">
+                <button style="font-size: 30px; align-items: center;" id="buttonInverse">View More</button>
+            </div>
+            <div class="col-sm-4"></div>
+        </div>
+    </div>
+    <br>
+
+    
+
+    
+</body>
+</html>

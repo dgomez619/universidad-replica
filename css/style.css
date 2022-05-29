@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+body{
+    background-image: url(../images/IMAGEN\ HERO2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 40%;
+    /* background-position: top; */
+}
+
+/* div{
+    outline: 2px solid black ;
+} */
+
+nav{
+    padding: 0 50px;
+    width: 100hv;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar-one{    
+    background-color: #02557d;
+    color: rgb(255, 255, 255);
+    height: 40px;
+    cursor: pointer;
+}
+
+.left > div + div{
+    margin-left: 40px;
+}
+
+.right > div{
+    margin-left: 40px;
+}
+
+.left > div:hover,
+.right > div:hover{
+    color: black;
+    transition: all 0.5s
+}
+
+.bg-dark {
+    background-color: #343a4000!important;
+}
+
+#line{
+    background-color: #ffb749;
+    height: 5px;
+    width: 50%;
+    margin-left: 0;
+}
+    
+    
+.flow{
+        color: rgb(255, 255, 255);
+        font-size: xx-large;
+        font-family: 'Nunito', sans-serif;
+}
+    
+#topText{
+        font-family: 'Fredoka One', cursive;
+}
+    
+#button{
+        width: 150px;
+        background-color: #ffb749;
+        color: #ffffff;
+        border-color: #ffffff;
+        border-radius: 30px;
+        border-style: solid;
+}
+    
+#buttonInverse{
+    width: 200px;
+    background-color: #ffffff;
+    color: #ffb749;
+    border-color: #ffb749;
+    border-radius: 30px;
+    border-style: solid;
+}
+
+.card{
+    background-color: #ffffff;   
+}
+
+.form-control{
+    background-color: rgba(155, 153, 149, 0.616);
+}
+
+.card-header{
+    border: 0;
+    background-color: #02557d;
+    border-bottom: 5px;
+    border-style: solid;
+    border-bottom-color:#ffb749;
+
+}
+
+#sendButton{
+    width: 150px;
+    font-size:20px; 
+    background-color: #ffb749;
+    color: #ffffff;
+    border-color: #ffffff;
+    border-radius: 30px;
+    border-style: solid;
+}
+
+.dot {
+    height: 20px;
+    width: 20px;
+    background-color:#ffb749;
+    border-radius: 50%;
+    display: inline-block;
+    }    
+
+#bottomSect{
+    /* padding: 100px; */
+    /* border: 100px; */
+    margin-top: 50px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    /* justify-items: center; */
+
+}
+
+#cCard, #cCard2, #cCard3, #cCard4 {
+/* padding: 1.5em .5em .5em; */
+border-radius: 2em;
+text-align: center;
+box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.card-img-top{
+    border-radius: 2em 2em 0 0;        
+    border-bottom: 10px solid #02557d ;
+}
+
+#card-body, #card-body2, #card-body3, #card-body4 {
+    border-top: 10px solid #ffb749;
+}
+
+.card-text{
+    font-family: 'Fredoka One', cursive;
+    color: #02557d;
+}
+
+   
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+    .hidden-mobile {
+        display: none;
+    }
+    }
+
+@media (max-width: 390px) {
+body{
+    background-image: url(../images/IMAGEN\ HERO2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 26%;
+    /* background-position: top; */
+}
+}
+
+@media (max-width:  557px) {
+body{
+    background-image: url(../images/IMAGEN\ HERO2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 26%;
+    /* background-position: top; */
+}
+}
+
+@media (max-width:  557px) {
+    .grid{
+        padding-left: 60px;
+    }
+    }
+
+@media (max-width:  557px) {
+    .bcards{
+        padding-top: 10px;
+    }
+    }
+
+
+            /* about page */
+
+
+.aboutUs{
+    background-image: url("../images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+  
+.AuBg{
+    background-image: url("../images/AuBg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    color:#ffffff;
+    ;
+}
+    
+.auimg{    
+    width: 300px;
+    height: 300px;
+    margin-bottom: -76px;
+}
+
+.imgCr{
+    border-radius: 30px;
+}
+
+.imgTxt{
+    font-size: 25px;
+    position: absolute;    
+    transform: translate(20%, -130%);
+}
+
+.imgTxt2{
+    font-size: 25px;
+    position: absolute;    
+    transform: translate(60%, -110%);
+}
+
+@media all and (max-width: 1207px) and (max-width: 994px) {
+    .imgTxt2  {
+    font-size: 25px;
+    position: absolute;    
+    transform: translate(20%, -150%);
+    }           
+
+}
+
+
+.imgTxt3{
+    font-size: 25px;
+    position: absolute;    
+    transform: translate(60%, -110%);
+}
+
+@media all and (max-width: 1207px) and (max-width: 994px) {
+    .imgTxt3  {
+    font-size: 25px;
+    position: absolute;    
+    transform: translate(20%, -150%);
+    }           
+
+}
+
+.imgTxt4{
+    font-size: 25px;
+    position: absolute;    
+    transform: translate(20%, -110%);
+}
+
+@media all and (max-width: 1207px) and (max-width: 994px) {
+    .imgTxt4  {
+    font-size: 25px;
+    position: absolute;    
+    transform: translate(20%, -150%);
+    }           
+
+}
+
+
+@media (max-width: 994px) {
+    .AuBg{
+        background: #02557d;
+        border-top: 5px solid #ffb749;
+
+
+    }
+}
+
+@media (max-width: 994px) {
+    .aboutUs{        
+        border-bottom: 5px solid #000000;
+
+
+    }
+}
+
+@media all and (max-width: 1207px) and (max-width: 994px) {
+    .imgCr  {
+        height: 350px;
+        width: 300px;
+        padding: 10px;
+    }           
+
+}
+
+@media all and (max-width: 1207px) and (max-width: 994px) {
+    .imgTxtQ >  {
+    font-size: 25px;
+    position: absolute;    
+    transform: translate(5%, -200%);
+    }           
+
+}
+
+
+@media (max-width: 1114px) {
+    .girlImg{        
+        width: 250px;
+        height: 200px;
+    }
+}
+
+
+
+
+
+
+
