@@ -8,69 +8,82 @@
     <!-- styles -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
     <link rel="stylesheet" href="./css/style.css">
 
-
 </head>
 <body>
-    <!-- top bar -->
-    <nav  id="navbar-one" class="flex">
-        <div class="left flex">
-            <div class="call">
-                <i class="fa fa-phone-alt"></i>
-                <span class="hidden-mobile">123 456 789</span>
-            </div>
-            <div class="email">
-                <i class="fa fa-envelope"></i>
-                <span class="hidden-mobile">info@email.com</span>
-            </div>
+  <nav  id="navbar-one" class="flex">
+    <div class="left flex">
+        <div class="call">
+            <i class="fa fa-phone-alt"></i>
+            <span class="hidden-mobile">123 456 789</span>
         </div>
-        <div class="right flex">
-            <div class="yt">
-                <i class="fab fa-youtube"></i>
-            </div>
-            <div class="ig">
-                <i class="fab fa-instagram"></i>
-            </div>
-            <div class="fb">
-                <i class="fab fa-facebook"></i>
-            </div>
+        <div class="email">
+            <i class="fa fa-envelope"></i>
+            <span class="hidden-mobile">info@email.com</span>
         </div>
-    </nav>
-
-    <!--button bar  -->
-
-    <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-            <a class="navbar-brand" href="#"><img height="100" width="150" src="./images/LOGO.png" alt=""></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">About us <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Courses</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Team</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
-                  </li>        
-              </ul>
-            </div>
-        </nav>
     </div>
+    <div class="right flex">
+        <div class="yt">
+            <i class="fab fa-youtube"></i>
+        </div>
+        <div class="ig">
+            <i class="fab fa-instagram"></i>
+        </div>
+        <div class="fb">
+            <i class="fab fa-facebook"></i>
+        </div>
+    </div>
+</nav>
+    <!-- Background video -->
+<div class="video-background-holder">
+  <div class="video-background-overlay"></div>
+  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <source src="./Videos/hero-video.mp4" type="video/mp4">
+    </video>
+  <div class="video-background-content container-fluid h-100">
+    
 
+  <!--button bar  -->
+
+  <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="#"><img height="100" width="150" src="./images/LOGO.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div  class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a  style="color: white;" class="nav-link" href="#about">About us <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a  style="color: white;" class="nav-link" href="#careers">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a  style="color: white;" class="nav-link" href="#team">Team</a>
+              </li>
+              <li class="nav-item">
+                  <a  style="color: white;" class="nav-link" href="#contact">Contact Us</a>
+                </li>        
+            </ul>
+          </div>
+      </nav>
+  </div>
+  </div> 
+
+</div>
+   
+   
     <!-- welcome card -->    
 
-    <section >
-        <div  class="container-fluid">
+    <section class="topBg">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-1"></div>
                 <div class="col-lg-4">
@@ -126,9 +139,9 @@
             </div>
         </div>
     </section>
-    <br>
+    <section>
 
-    <div id="bottomSect" class="container-fluid">
+      <div id="bottomSect" class="container-fluid">
         <div class="row">
           <div class="col-lg-1"></div>
           <div class="col-lg-4">
@@ -148,6 +161,10 @@
                         
         </div>
     </div>
+
+    </section>
+
+
 
     <!-- bottom cards -->
 
@@ -212,7 +229,7 @@
 
     <!--About us section \ -->
     <br>
-    <section class="aboutUs">
+    <section id="about" href class="aboutUs">
       <br>
       <div class="container-fluid">
         <div class="row">
@@ -244,7 +261,7 @@
         <div class="row">
         <div class="col-lg-3">
            <img class="auimg"   src="./images/ICONO 1.png" alt="">
-           <h1>Exellent <br>
+           <h1>Excellent <br>
               Content</h1>
           </div>
         <div class="col-lg-3">
@@ -271,7 +288,7 @@
 
     <!-- study careers -->
 
-    <section>
+    <section id="careers">
       <div class="container-fluid">
         <div class="row">
           <div class="col-lg-1"></div>
@@ -328,7 +345,6 @@
                   Programing
                 </span>
                 <br>
-                <br>
                 <button id="button">Explore</button>
               </h1>
             </div>
@@ -341,7 +357,7 @@
               <img class="imgCr"  width="633px" height="133px" src="./images/IMAGE  CATEGORY ARCHITECTURE.png" alt="">
               <h1 class="imgTxt4 imgTxtQ">
                 <span id="topText">
-                  Programing
+                  Architecture 
                 </span>
                 <br>
                 <br>
@@ -361,8 +377,178 @@
             </div>
           </div>
         </div>
-        
+        <br>
+         <!-- bottom button -->
+    <div class="container">
+      <div class="row">
+          <div class="col-sm-4"></div>
+          <div class="col-lg-4" style="padding-left: 100px;">
+              <button style="font-size: 30px; align-items: center;" id="buttonInverse">View More</button>
+          </div>
+          <div class="col-sm-4"></div>
+      </div>
+  </div>
+  <br>        
     </section> 
+  <!-- our team -->
+  
+  <section id="team" style="background-color: #efefef;">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-1"></div>
+        <div  class="col-lg-6">
+          <div style="color: #003047;" class="flow">                        
+          <h1><span class="dot"></span>
+            Our Team</h1>
+          <hr style="background-color: #ffd5a0; height: 5px; width: 40%; margin-left: 0"> 
+          <h1 id="topText">Meet the best professionals</h1> 
+        </div>
+      </div>
+        <div class="col-lg-5"></div>
+      </div>
+    </div>
+    <br>
+    <div class="container">   
     
+      <div class="row">
+        <div class="col-sm-3">
+          <div  class="profile-card card rounded-lg shadow p-4 p-xl-5 mb-4 text-center position-relative overflow-hidden">
+            <div class="banner"></div>
+            <img src="./images/IMAGE TEAM 1.jpg" alt="" class="img-circle mx-auto mb-3">
+            <h3 style="color: #02557d; font-size: 20px;">John Smith</h3>
+            <h3 style="font-size: 20px; color:#ffb749;" >Math Teacher</h3> 
+            <br>
+            <h3>
+              <button style="font-size: 15px; align-items: center; width: 75%;" id="buttonInverse">Read More</button> 
+            </h3>          
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="profile-card card rounded-lg shadow p-4 p-xl-5 mb-4 text-center position-relative overflow-hidden">
+            <div class="banner"></div>
+            <img src="./images/IMAGE TEAM 2.jpg" alt="" class="img-circle mx-auto mb-3">
+            <h3  style="color: #02557d; font-size: 20px;">Dave Morgan</h3>
+            <h3 style="font-size: 20px; color:#ffb749;" >Math Teacher</h3>
+            <br>
+            <h3>
+              <button style="font-size: 15px; align-items: center; width: 75%;" id="buttonInverse">Read More</button> 
+            </h3>               
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="profile-card card rounded-lg shadow p-4 p-xl-5 mb-4 text-center position-relative overflow-hidden">
+            <div class="banner"></div>
+            <img src="./images/IMAGE TEAM 4.jpg" alt="" class="img-circle mx-auto mb-3">
+            <h3  style="color: #02557d; font-size: 20px;">Zara Smith</h3>
+            <h3 style="font-size: 20px; color:#ffb749;" >Biology Teacher</h3>
+            <br>
+            <h3>
+              <button style="font-size: 15px; align-items: center; width: 75%;" id="buttonInverse">Read More</button> 
+            </h3>               
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="profile-card card rounded-lg shadow p-4 p-xl-5 mb-4 text-center position-relative overflow-hidden">
+            <div class="banner"></div>
+            <img src="./images/IMAGE TEAM 3.jpg" alt="" class="img-circle mx-auto mb-3">
+            <h3  style="color: #02557d; font-size: 20px;">Jimena Soto</h3>
+            <h3 style="font-size: 20px; color:#ffb749;" >Math Teacher</h3>
+            <br>
+            <h3>
+              <button style="font-size: 15px; align-items: center; width: 75%;" id="buttonInverse">Read More</button> 
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- testimony  -->
+
+  <section class="testimony">
+    <br>
+    <div class="container"> 
+    <div class="row">
+      <div class="col-lg-2"></div>
+      <div class="col-lg-8">        
+        <img class="tp" src="./images/bottom-testimony.png" alt="">
+      </div>
+      <div class="col-lg-2"></div>
+    </div>
+    </div>
+    <br>
+  </section>
+
+  <!-- footer -->
+  <section id="contact" class="footer">
+    <br>
+      <div class="container">
+        <div style="color:white;" class="row">
+          <div class="col-lg-3">
+            <img height="100px" width="100px" src="./images/LOGO.png" alt="">
+          </div>
+          <div class="col-lg-3">
+            <a href="">Quick Links</a>
+            <ul>
+              <li>About Us</li>
+              <li>Courses</li>
+              <li>Team</li>
+              <li>Contact Us</li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <a href="">Contact Info</a>
+            <ul>
+              <li><i class="fa fa-phone-alt"></i> 123 456 789</li>
+              
+              <li><i class="fa fa-envelope"></i> info@email.com</li>
+                
+              <li>
+                <i class="fab fa-facebook"></i>
+                
+                <i class="fab fa-instagram"></i>
+                
+                <i class="fab fa-youtube"></i>
+    
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <a href="">Newsletter</a>
+            <ul>
+              <li>Receive all our promotions and notifications</li>
+              <li>
+                <div class="custom-search">
+                  <input type="text" class="custom-search-input" placeholder="Enter your email">
+                  <button class="custom-search-botton" type="submit">Subscribe</button>  
+                </div>
+              </li>              
+            </ul>
+          </div>
+        </div>        
+      </div>
+      <br>
+      <div class="container">
+        <div class="row">
+          <div style="color: white;" class="col-lg-6">© Copyright University. All Rights Reserved
+            This Website Was Designed And Develop by Josesilvera.com
+          </div>
+          <div style="text-align: right;" class="col-lg-6">
+            <img height="50px" width="100px" src="./images/logo Silvera Enterprises.png" alt="">
+          </div>
+        </div>
+      </div>
+      <br>
+  </section>
+
+
+	
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
+
 </html>
